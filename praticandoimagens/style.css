@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: grid;
+    grid-template-areas: 
+    "header header"
+    "main aside"
+    "footer footer";
+
+    grid-template-rows: 50px 1fr 40px;
+    grid-template-columns: 1fr 1fr;
+}
+
+header {
+    grid-area: header;
+    background-color: brown;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    font-size: 2em;
+}
+
+header > div:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+main {
+    text-indent: 15px;
+    line-height: 1.5em;
+    text-align: justify;
+    padding: 0 15px;
+    grid-area: main;
+    background-color: blue;
+}
+
+aside {
+    text-indent: 15px;
+    padding: 0 15px;
+    text-align: justify;
+    line-height: 1.5em;
+    grid-area: aside;
+    background-color: green;
+}
+
+footer {
+    font-size: 1em;
+    font-weight: bold;
+    grid-area: footer;
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
