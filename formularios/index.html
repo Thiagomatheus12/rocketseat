@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários</title>
+</head>
+<body>
+    <form action="">
+        <fieldset>
+            <legend>Contato</legend>
+            <label for="nome">Nome:</label>
+            <input type="text" name="nome" id="nome">
+
+            <label for="email">E-mail</label>
+            <input type="text" name="email" id="email">
+
+            
+        <input type="text" list="fruitsdata" placeholder="Escolha uma fruta"/>
+
+        <datalist id="fruitsdata">
+            <option value="Laranja">
+            <option value="Maçã">
+            <option value="Banana">
+            <option value="Melancia">
+        </datalist>
+
+        <input type="color" list="colordata"/>
+
+        <datalist id="colordata">
+            <option value="#ff0000">
+            <option value="#00ff00">
+            <option value="#0000ff">
+        </datalist>
+    </form>
+
+            <button>Enviar</button>
+
+        </fieldset>
+
+</body>
+</html>
