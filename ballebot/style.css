@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+    background: linear-gradient(68.15deg, #2F2325 16.62%, #8E5D52 85.61%);
+}
+
+.cabeçalho {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 0;
+    border-bottom: 0.4px solid #FFF2E7;
+    gap: 180px;
+}
+
+.imagem-cabeçalho {
+    height: 70px;
+}
+
+.cabeçalho-menu {
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+}
+
+.link-cabeçalho {
+    color: #FFF2E7;
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+}
+
+.link-cabeçalho:hover {
+    background-color: #c9b19e;
+    text-decoration: underline;
+    border-radius: 5px;
+}
+
+.conteudo-pricipal {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    align-items: center;
+}
+
+.div-conteudo-principal {
+    display: flex;
+    flex-direction: column;
+    line-height: 80px;
+}
+
+.titulo-principal {
+    font-family: 'Righteous', cursive;
+    color: #FFF2E7;
+    font-size: 64px;
+}
+
+.subtitulo-principal {
+    font-family: 'Sarala', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    color: #ECD6C4;
+    text-align: center;
+}
+
+button {
+    background: #ECD6C4;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+    width: 110px;
+    height: 45px;
+}
+
+button:hover {
+    background: #a79b92;
+    text-decoration: underline;
+}
+
+.imagem-ballebot {
+    height: 400px;
+}
+
+.conteudo-secundario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.div-conteudo-secundario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.subtitulo-secundario {
+    font-family: 'Righteous', cursive;
+    color: #FFF2E7;
+    font-size: 24px;
+    text-align: center;
+    font-weight: 200;
+    font-style: normal;
+    line-height: 30px;
+    border-top: 0.4px solid #FFF2E7;
+    padding-top: 40px;
+}
+
+.paragrafo-secundario {
+    font-family: 'Sarala', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    color: #ECD6C4;
+    text-align: center;
+    line-height: 30px;
+}
+
+footer {
+    border-top: 0.4px solid #FFF2E7;
+}
+
+
+.imagem-footer {
+    height: 40px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
